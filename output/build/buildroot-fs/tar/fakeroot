@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/tar/target
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/makedevs -d /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/full_devices_table.txt /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/tar/target
+   
+   	(cd /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/tar/target; find -print0 | LC_ALL=C sort -z | tar  --pax-option=exthdr.name=%d/PaxHeaders/%f,atime:=0,ctime:=0 -cf /home/shun/linux/tool/buildroot-2019.02.6/output/images/rootfs.tar --null --xattrs-include='*' --no-recursion -T - --numeric-owner)

@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/ubifs/target
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/makedevs -d /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/full_devices_table.txt /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/ubifs/target
+   
+   	/home/shun/linux/tool/buildroot-2019.02.6/output/host/sbin/mkfs.ubifs -d /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/ubifs/target -e 0x1f800 -c 2048 -m 0x800 -x lzo  -o /home/shun/linux/tool/buildroot-2019.02.6/output/images/rootfs.ubifs

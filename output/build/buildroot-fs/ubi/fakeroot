@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/ubi/target
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/makedevs -d /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/full_devices_table.txt /home/shun/linux/tool/buildroot-2019.02.6/output/build/buildroot-fs/ubi/target
+   
+   	sed 's;BR2_ROOTFS_UBIFS_PATH;/home/shun/linux/tool/buildroot-2019.02.6/output/images/rootfs.ubifs;' fs/ubi/ubinize.cfg > /home/shun/linux/tool/buildroot-2019.02.6/output/build/ubinize.cfg
+	/home/shun/linux/tool/buildroot-2019.02.6/output/host/sbin/ubinize -o /home/shun/linux/tool/buildroot-2019.02.6/output/images/rootfs.ubi -m 0x800 -p 0x20000 -s 512  /home/shun/linux/tool/buildroot-2019.02.6/output/build/ubinize.cfg
+	rm /home/shun/linux/tool/buildroot-2019.02.6/output/build/ubinize.cfg

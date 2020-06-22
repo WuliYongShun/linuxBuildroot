@@ -1,0 +1,15 @@
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/install/strip.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/install.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/list_install_components.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/edit_cache.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/testmini.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/install/local.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/simple.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/precomp2.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/lzotest.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/lzo_shared_lib.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/overlap.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/dict.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/precomp.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/rebuild_cache.dir
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/lzopack.dir

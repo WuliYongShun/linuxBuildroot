@@ -1,0 +1,2 @@
+/home/shun/linux/tool/buildroot-2019.02.6/package/cmake/0001-rename_cmake_rootfile.patch
+/home/shun/linux/tool/buildroot-2019.02.6/package/cmake/0002-FindLibUV-Also-check-uv-version-h-for-version-detection.patch

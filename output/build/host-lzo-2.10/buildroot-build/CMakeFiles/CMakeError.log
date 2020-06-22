@@ -1,0 +1,333 @@
+Determining size of __int16 failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1b9b/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_b1b9b.dir/build.make CMakeFiles/cmTC_b1b9b.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b1b9b.dir/mfx_SIZEOF___INT16.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_b1b9b.dir/mfx_SIZEOF___INT16.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c:17:22: error: ‘__int16’ undeclared here (not in a function); did you mean ‘__int16_t’?
+ #define SIZE (sizeof(__int16))
+                      ^
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_b1b9b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b1b9b.dir/mfx_SIZEOF___INT16.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_b1b9b.dir/mfx_SIZEOF___INT16.c.o] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_b1b9b/fast' failed
+make[1]: *** [cmTC_b1b9b/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a90a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_3a90a.dir/build.make CMakeFiles/cmTC_3a90a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3a90a.dir/mfx_SIZEOF___INT32.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_3a90a.dir/mfx_SIZEOF___INT32.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c:17:22: error: ‘__int32’ undeclared here (not in a function); did you mean ‘__int32_t’?
+ #define SIZE (sizeof(__int32))
+                      ^
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_3a90a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3a90a.dir/mfx_SIZEOF___INT32.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_3a90a.dir/mfx_SIZEOF___INT32.c.o] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_3a90a/fast' failed
+make[1]: *** [cmTC_3a90a/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0e92/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_f0e92.dir/build.make CMakeFiles/cmTC_f0e92.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f0e92.dir/mfx_SIZEOF___INT64.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_f0e92.dir/mfx_SIZEOF___INT64.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_f0e92.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f0e92.dir/mfx_SIZEOF___INT64.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_f0e92.dir/mfx_SIZEOF___INT64.c.o] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_f0e92/fast' failed
+make[1]: *** [cmTC_f0e92/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of fpos_t failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1885d/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_1885d.dir/build.make CMakeFiles/cmTC_1885d.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1885d.dir/mfx_SIZEOF_FPOS_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_1885d.dir/mfx_SIZEOF_FPOS_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c:17:22: error: ‘fpos_t’ undeclared here (not in a function); did you mean ‘fd_set’?
+ #define SIZE (sizeof(fpos_t))
+                      ^
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_1885d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1885d.dir/mfx_SIZEOF_FPOS_T.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_1885d.dir/mfx_SIZEOF_FPOS_T.c.o] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_1885d/fast' failed
+make[1]: *** [cmTC_1885d/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(fpos_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4760/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e4760.dir/build.make CMakeFiles/cmTC_e4760.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e4760.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_e4760.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e4760
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4760.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_e4760.dir/CheckFunctionExists.c.o  -o cmTC_e4760 
+CMakeFiles/cmTC_e4760.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup+0x20)：对‘alloca’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e4760.dir/build.make:97: recipe for target 'cmTC_e4760' failed
+make[2]: *** [cmTC_e4760] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_e4760/fast' failed
+make[1]: *** [cmTC_e4760/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bfb9/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9bfb9.dir/build.make CMakeFiles/cmTC_9bfb9.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9bfb9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=stricmp   -o CMakeFiles/cmTC_9bfb9.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9bfb9
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bfb9.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=stricmp    -rdynamic CMakeFiles/cmTC_9bfb9.dir/CheckFunctionExists.c.o  -o cmTC_9bfb9 
+CMakeFiles/cmTC_9bfb9.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup+0xc)：对‘stricmp’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9bfb9.dir/build.make:97: recipe for target 'cmTC_9bfb9' failed
+make[2]: *** [cmTC_9bfb9] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_9bfb9/fast' failed
+make[1]: *** [cmTC_9bfb9/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strnicmp exists failed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_836fa/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_836fa.dir/build.make CMakeFiles/cmTC_836fa.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_836fa.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strnicmp   -o CMakeFiles/cmTC_836fa.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_836fa
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_836fa.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strnicmp    -rdynamic CMakeFiles/cmTC_836fa.dir/CheckFunctionExists.c.o  -o cmTC_836fa 
+CMakeFiles/cmTC_836fa.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text.startup+0xc)：对‘strnicmp’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_836fa.dir/build.make:97: recipe for target 'cmTC_836fa' failed
+make[2]: *** [cmTC_836fa] Error 1
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_836fa/fast' failed
+make[1]: *** [cmTC_836fa/fast] Error 2
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+

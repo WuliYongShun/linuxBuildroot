@@ -1,0 +1,11 @@
+prefix=/home/shun/linux/tool/buildroot-2019.02.6/output/host
+exec_prefix=/home/shun/linux/tool/buildroot-2019.02.6/output/host
+libdir=/home/shun/linux/tool/buildroot-2019.02.6/output/host/lib
+includedir=/home/shun/linux/tool/buildroot-2019.02.6/output/host/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.33.0
+Requires.private: uuid
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

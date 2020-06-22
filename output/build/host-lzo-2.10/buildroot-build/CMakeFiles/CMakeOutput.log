@@ -1,0 +1,1879 @@
+The system is: Linux - 5.3.0-51-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: -O2;-I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7656a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7656a.dir/build.make CMakeFiles/cmTC_7656a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7656a.dir/testCCompiler.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_7656a.dir/testCCompiler.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7656a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7656a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_7656a.dir/testCCompiler.c.o  -o cmTC_7656a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4ae2/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a4ae2.dir/build.make CMakeFiles/cmTC_a4ae2.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a4ae2
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ae2.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -v -rdynamic CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o  -o cmTC_a4ae2 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-I' '/home/shun/linux/tool/buildroot-2019.02.6/output/host/include' '-v' '-rdynamic' '-o' 'cmTC_a4ae2' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1LMYin.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a4ae2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-O2' '-I' '/home/shun/linux/tool/buildroot-2019.02.6/output/host/include' '-v' '-rdynamic' '-o' 'cmTC_a4ae2' '-mtune=generic' '-march=x86-64'
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a4ae2/fast"]
+  ignore line: [make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a4ae2.dir/build.make CMakeFiles/cmTC_a4ae2.dir/build]
+  ignore line: [make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a4ae2]
+  ignore line: [/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ae2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -v -rdynamic CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o  -o cmTC_a4ae2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-I' '/home/shun/linux/tool/buildroot-2019.02.6/output/host/include' '-v' '-rdynamic' '-o' 'cmTC_a4ae2' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1LMYin.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a4ae2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1LMYin.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a4ae2] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_a4ae2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d8ea/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7d8ea.dir/build.make CMakeFiles/cmTC_7d8ea.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7d8ea.dir/feature_tests.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -std=c11 -o CMakeFiles/cmTC_7d8ea.dir/feature_tests.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d8ea
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d8ea.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_7d8ea.dir/feature_tests.c.o  -o cmTC_7d8ea 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1194b/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_1194b.dir/build.make CMakeFiles/cmTC_1194b.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1194b.dir/feature_tests.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -std=c99 -o CMakeFiles/cmTC_1194b.dir/feature_tests.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1194b
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1194b.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_1194b.dir/feature_tests.c.o  -o cmTC_1194b 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54902/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_54902.dir/build.make CMakeFiles/cmTC_54902.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_54902.dir/feature_tests.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -std=c90 -o CMakeFiles/cmTC_54902.dir/feature_tests.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_54902
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54902.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_54902.dir/feature_tests.c.o  -o cmTC_54902 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d60f1/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_d60f1.dir/build.make CMakeFiles/cmTC_d60f1.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d60f1.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_d60f1.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d60f1
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d60f1.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_d60f1.dir/CheckIncludeFile.c.o  -o cmTC_d60f1 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f50a2/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_f50a2.dir/build.make CMakeFiles/cmTC_f50a2.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f50a2.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_f50a2.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f50a2
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50a2.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_f50a2.dir/CheckIncludeFile.c.o  -o cmTC_f50a2 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a314/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_1a314.dir/build.make CMakeFiles/cmTC_1a314.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1a314.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_1a314.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a314
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a314.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_1a314.dir/CheckIncludeFile.c.o  -o cmTC_1a314 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c76d6/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_c76d6.dir/build.make CMakeFiles/cmTC_c76d6.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c76d6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_c76d6.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c76d6
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c76d6.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_c76d6.dir/CheckIncludeFile.c.o  -o cmTC_c76d6 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_593c8/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_593c8.dir/build.make CMakeFiles/cmTC_593c8.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_593c8.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_593c8.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_593c8
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_593c8.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_593c8.dir/CheckIncludeFile.c.o  -o cmTC_593c8 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_866f2/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_866f2.dir/build.make CMakeFiles/cmTC_866f2.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_866f2.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_866f2.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_866f2
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_866f2.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_866f2.dir/CheckIncludeFile.c.o  -o cmTC_866f2 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f9af/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_3f9af.dir/build.make CMakeFiles/cmTC_3f9af.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3f9af.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_3f9af.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3f9af
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f9af.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_3f9af.dir/CheckIncludeFile.c.o  -o cmTC_3f9af 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fab4e/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_fab4e.dir/build.make CMakeFiles/cmTC_fab4e.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fab4e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_fab4e.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fab4e
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fab4e.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_fab4e.dir/CheckIncludeFile.c.o  -o cmTC_fab4e 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_763db/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_763db.dir/build.make CMakeFiles/cmTC_763db.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_763db.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_763db.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_763db
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_763db.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_763db.dir/CheckIncludeFile.c.o  -o cmTC_763db 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38c94/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_38c94.dir/build.make CMakeFiles/cmTC_38c94.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_38c94.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_38c94.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_38c94
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38c94.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_38c94.dir/CheckIncludeFile.c.o  -o cmTC_38c94 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68b23/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_68b23.dir/build.make CMakeFiles/cmTC_68b23.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_68b23.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_68b23.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_68b23
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b23.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_68b23.dir/CheckIncludeFile.c.o  -o cmTC_68b23 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_612ac/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_612ac.dir/build.make CMakeFiles/cmTC_612ac.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_612ac.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_612ac.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_612ac
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_612ac.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_612ac.dir/CheckIncludeFile.c.o  -o cmTC_612ac 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b05d/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2b05d.dir/build.make CMakeFiles/cmTC_2b05d.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2b05d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_2b05d.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2b05d
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b05d.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_2b05d.dir/CheckIncludeFile.c.o  -o cmTC_2b05d 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e687e/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e687e.dir/build.make CMakeFiles/cmTC_e687e.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e687e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_e687e.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e687e
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e687e.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_e687e.dir/CheckIncludeFile.c.o  -o cmTC_e687e 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0eac6/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_0eac6.dir/build.make CMakeFiles/cmTC_0eac6.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0eac6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_0eac6.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0eac6
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eac6.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_0eac6.dir/CheckIncludeFile.c.o  -o cmTC_0eac6 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70055/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_70055.dir/build.make CMakeFiles/cmTC_70055.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_70055.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_70055.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_70055
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70055.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_70055.dir/CheckIncludeFile.c.o  -o cmTC_70055 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_810ec/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_810ec.dir/build.make CMakeFiles/cmTC_810ec.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_810ec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_810ec.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_810ec
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_810ec.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_810ec.dir/CheckIncludeFile.c.o  -o cmTC_810ec 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e93e4/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e93e4.dir/build.make CMakeFiles/cmTC_e93e4.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e93e4.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_e93e4.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e93e4
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e93e4.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_e93e4.dir/CheckIncludeFile.c.o  -o cmTC_e93e4 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_285ad/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_285ad.dir/build.make CMakeFiles/cmTC_285ad.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_285ad.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_285ad.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_285ad
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285ad.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_285ad.dir/CheckIncludeFile.c.o  -o cmTC_285ad 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fbcb/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_5fbcb.dir/build.make CMakeFiles/cmTC_5fbcb.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5fbcb.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_5fbcb.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5fbcb
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fbcb.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_5fbcb.dir/CheckIncludeFile.c.o  -o cmTC_5fbcb 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5edd3/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_5edd3.dir/build.make CMakeFiles/cmTC_5edd3.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5edd3.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_5edd3.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5edd3
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5edd3.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_5edd3.dir/CheckIncludeFile.c.o  -o cmTC_5edd3 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b48b4/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_b48b4.dir/build.make CMakeFiles/cmTC_b48b4.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b48b4.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_b48b4.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b48b4
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b48b4.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_b48b4.dir/CheckIncludeFile.c.o  -o cmTC_b48b4 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b103/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9b103.dir/build.make CMakeFiles/cmTC_9b103.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9b103.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_9b103.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9b103
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b103.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_9b103.dir/CheckIncludeFile.c.o  -o cmTC_9b103 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_298d2/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_298d2.dir/build.make CMakeFiles/cmTC_298d2.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_298d2.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_298d2.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_298d2
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_298d2.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_298d2.dir/CheckIncludeFile.c.o  -o cmTC_298d2 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9513/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_d9513.dir/build.make CMakeFiles/cmTC_d9513.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d9513.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_d9513.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d9513
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9513.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_d9513.dir/CheckIncludeFile.c.o  -o cmTC_d9513 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4f0a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_b4f0a.dir/build.make CMakeFiles/cmTC_b4f0a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b4f0a.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_b4f0a.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b4f0a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f0a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_b4f0a.dir/CheckIncludeFile.c.o  -o cmTC_b4f0a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55a95/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_55a95.dir/build.make CMakeFiles/cmTC_55a95.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_55a95.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_55a95.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_55a95
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55a95.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_55a95.dir/CheckIncludeFile.c.o  -o cmTC_55a95 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3649/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_d3649.dir/build.make CMakeFiles/cmTC_d3649.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d3649.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_d3649.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d3649
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3649.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_d3649.dir/CheckIncludeFile.c.o  -o cmTC_d3649 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30f05/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_30f05.dir/build.make CMakeFiles/cmTC_30f05.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_30f05.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_30f05.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30f05
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30f05.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_30f05.dir/CheckIncludeFile.c.o  -o cmTC_30f05 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b5c9/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_4b5c9.dir/build.make CMakeFiles/cmTC_4b5c9.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4b5c9.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_4b5c9.dir/CheckIncludeFile.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4b5c9
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b5c9.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_4b5c9.dir/CheckIncludeFile.c.o  -o cmTC_4b5c9 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10cde/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_10cde.dir/build.make CMakeFiles/cmTC_10cde.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_10cde.dir/mfx_SIZEOF_SHORT.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_10cde.dir/mfx_SIZEOF_SHORT.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_SHORT.c
+Linking C executable cmTC_10cde
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10cde.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_10cde.dir/mfx_SIZEOF_SHORT.c.o  -o cmTC_10cde 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85cd9/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_85cd9.dir/build.make CMakeFiles/cmTC_85cd9.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_85cd9.dir/mfx_SIZEOF_INT.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_85cd9.dir/mfx_SIZEOF_INT.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_INT.c
+Linking C executable cmTC_85cd9
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85cd9.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_85cd9.dir/mfx_SIZEOF_INT.c.o  -o cmTC_85cd9 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6329a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_6329a.dir/build.make CMakeFiles/cmTC_6329a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6329a.dir/mfx_SIZEOF_LONG.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_6329a.dir/mfx_SIZEOF_LONG.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_LONG.c
+Linking C executable cmTC_6329a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6329a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_6329a.dir/mfx_SIZEOF_LONG.c.o  -o cmTC_6329a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48649/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_48649.dir/build.make CMakeFiles/cmTC_48649.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_48649.dir/mfx_SIZEOF_LONG_LONG.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_48649.dir/mfx_SIZEOF_LONG_LONG.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_LONG_LONG.c
+Linking C executable cmTC_48649
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48649.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_48649.dir/mfx_SIZEOF_LONG_LONG.c.o  -o cmTC_48649 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of void * passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eb59/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2eb59.dir/build.make CMakeFiles/cmTC_2eb59.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2eb59.dir/mfx_SIZEOF_VOID_P.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_2eb59.dir/mfx_SIZEOF_VOID_P.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_VOID_P.c
+Linking C executable cmTC_2eb59
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eb59.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_2eb59.dir/mfx_SIZEOF_VOID_P.c.o  -o cmTC_2eb59 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_727a1/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_727a1.dir/build.make CMakeFiles/cmTC_727a1.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_727a1.dir/mfx_SIZEOF_SIZE_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_727a1.dir/mfx_SIZEOF_SIZE_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_SIZE_T.c
+Linking C executable cmTC_727a1
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_727a1.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_727a1.dir/mfx_SIZEOF_SIZE_T.c.o  -o cmTC_727a1 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f15f/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9f15f.dir/build.make CMakeFiles/cmTC_9f15f.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9f15f.dir/mfx_SIZEOF_PTRDIFF_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_9f15f.dir/mfx_SIZEOF_PTRDIFF_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_9f15f
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f15f.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_9f15f.dir/mfx_SIZEOF_PTRDIFF_T.c.o  -o cmTC_9f15f 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27704/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_27704.dir/build.make CMakeFiles/cmTC_27704.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_27704.dir/mfx_SIZEOF_INTMAX_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_27704.dir/mfx_SIZEOF_INTMAX_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_INTMAX_T.c
+Linking C executable cmTC_27704
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27704.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_27704.dir/mfx_SIZEOF_INTMAX_T.c.o  -o cmTC_27704 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of uintmax_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31be5/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_31be5.dir/build.make CMakeFiles/cmTC_31be5.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_31be5.dir/mfx_SIZEOF_UINTMAX_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_31be5.dir/mfx_SIZEOF_UINTMAX_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_UINTMAX_T.c
+Linking C executable cmTC_31be5
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31be5.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_31be5.dir/mfx_SIZEOF_UINTMAX_T.c.o  -o cmTC_31be5 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of intptr_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b93b/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_8b93b.dir/build.make CMakeFiles/cmTC_8b93b.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8b93b.dir/mfx_SIZEOF_INTPTR_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_8b93b.dir/mfx_SIZEOF_INTPTR_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_INTPTR_T.c
+Linking C executable cmTC_8b93b
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b93b.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_8b93b.dir/mfx_SIZEOF_INTPTR_T.c.o  -o cmTC_8b93b 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d030/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2d030.dir/build.make CMakeFiles/cmTC_2d030.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2d030.dir/mfx_SIZEOF_UINTPTR_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_2d030.dir/mfx_SIZEOF_UINTPTR_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_UINTPTR_T.c
+Linking C executable cmTC_2d030
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d030.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_2d030.dir/mfx_SIZEOF_UINTPTR_T.c.o  -o cmTC_2d030 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7864/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_f7864.dir/build.make CMakeFiles/cmTC_f7864.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f7864.dir/mfx_SIZEOF_FLOAT.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_f7864.dir/mfx_SIZEOF_FLOAT.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FLOAT.c
+Linking C executable cmTC_f7864
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7864.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_f7864.dir/mfx_SIZEOF_FLOAT.c.o  -o cmTC_f7864 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85325/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_85325.dir/build.make CMakeFiles/cmTC_85325.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_85325.dir/mfx_SIZEOF_DOUBLE.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_85325.dir/mfx_SIZEOF_DOUBLE.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_DOUBLE.c
+Linking C executable cmTC_85325
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85325.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_85325.dir/mfx_SIZEOF_DOUBLE.c.o  -o cmTC_85325 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2658/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_f2658.dir/build.make CMakeFiles/cmTC_f2658.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f2658.dir/mfx_SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_f2658.dir/mfx_SIZEOF_LONG_DOUBLE.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_f2658
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2658.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_f2658.dir/mfx_SIZEOF_LONG_DOUBLE.c.o  -o cmTC_f2658 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of dev_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec14e/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ec14e.dir/build.make CMakeFiles/cmTC_ec14e.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ec14e.dir/mfx_SIZEOF_DEV_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_ec14e.dir/mfx_SIZEOF_DEV_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_DEV_T.c
+Linking C executable cmTC_ec14e
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec14e.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_ec14e.dir/mfx_SIZEOF_DEV_T.c.o  -o cmTC_ec14e 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of mode_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae76a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ae76a.dir/build.make CMakeFiles/cmTC_ae76a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ae76a.dir/mfx_SIZEOF_MODE_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_ae76a.dir/mfx_SIZEOF_MODE_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_MODE_T.c
+Linking C executable cmTC_ae76a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae76a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_ae76a.dir/mfx_SIZEOF_MODE_T.c.o  -o cmTC_ae76a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7fe6/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e7fe6.dir/build.make CMakeFiles/cmTC_e7fe6.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e7fe6.dir/mfx_SIZEOF_OFF_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_e7fe6.dir/mfx_SIZEOF_OFF_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_OFF_T.c
+Linking C executable cmTC_e7fe6
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7fe6.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_e7fe6.dir/mfx_SIZEOF_OFF_T.c.o  -o cmTC_e7fe6 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_956d2/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_956d2.dir/build.make CMakeFiles/cmTC_956d2.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_956d2.dir/mfx_SIZEOF_SSIZE_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_956d2.dir/mfx_SIZEOF_SSIZE_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_SSIZE_T.c
+Linking C executable cmTC_956d2
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_956d2.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_956d2.dir/mfx_SIZEOF_SSIZE_T.c.o  -o cmTC_956d2 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95509/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_95509.dir/build.make CMakeFiles/cmTC_95509.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_95509.dir/mfx_SIZEOF_TIME_T.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_95509.dir/mfx_SIZEOF_TIME_T.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_TIME_T.c
+Linking C executable cmTC_95509
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95509.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_95509.dir/mfx_SIZEOF_TIME_T.c.o  -o cmTC_95509 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function access exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ac5c/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2ac5c.dir/build.make CMakeFiles/cmTC_2ac5c.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2ac5c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=access   -o CMakeFiles/cmTC_2ac5c.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ac5c
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ac5c.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=access    -rdynamic CMakeFiles/cmTC_2ac5c.dir/CheckFunctionExists.c.o  -o cmTC_2ac5c 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function atexit exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d618/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_6d618.dir/build.make CMakeFiles/cmTC_6d618.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6d618.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=atexit   -o CMakeFiles/cmTC_6d618.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6d618
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d618.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=atexit    -rdynamic CMakeFiles/cmTC_6d618.dir/CheckFunctionExists.c.o  -o cmTC_6d618 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_baea2/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_baea2.dir/build.make CMakeFiles/cmTC_baea2.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_baea2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTC_baea2.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_baea2
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baea2.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=atoi    -rdynamic CMakeFiles/cmTC_baea2.dir/CheckFunctionExists.c.o  -o cmTC_baea2 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function atol exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23078/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_23078.dir/build.make CMakeFiles/cmTC_23078.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_23078.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=atol   -o CMakeFiles/cmTC_23078.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23078
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23078.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=atol    -rdynamic CMakeFiles/cmTC_23078.dir/CheckFunctionExists.c.o  -o cmTC_23078 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function chmod exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f65a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_8f65a.dir/build.make CMakeFiles/cmTC_8f65a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8f65a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=chmod   -o CMakeFiles/cmTC_8f65a.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f65a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f65a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=chmod    -rdynamic CMakeFiles/cmTC_8f65a.dir/CheckFunctionExists.c.o  -o cmTC_8f65a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function chown exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae5ee/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ae5ee.dir/build.make CMakeFiles/cmTC_ae5ee.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ae5ee.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=chown   -o CMakeFiles/cmTC_ae5ee.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae5ee
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae5ee.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=chown    -rdynamic CMakeFiles/cmTC_ae5ee.dir/CheckFunctionExists.c.o  -o cmTC_ae5ee 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function clock_getcpuclockid exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe95e/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_fe95e.dir/build.make CMakeFiles/cmTC_fe95e.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fe95e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=clock_getcpuclockid   -o CMakeFiles/cmTC_fe95e.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe95e
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe95e.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=clock_getcpuclockid    -rdynamic CMakeFiles/cmTC_fe95e.dir/CheckFunctionExists.c.o  -o cmTC_fe95e 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function clock_getres exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cd15/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_4cd15.dir/build.make CMakeFiles/cmTC_4cd15.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4cd15.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=clock_getres   -o CMakeFiles/cmTC_4cd15.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4cd15
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd15.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=clock_getres    -rdynamic CMakeFiles/cmTC_4cd15.dir/CheckFunctionExists.c.o  -o cmTC_4cd15 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32dc8/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_32dc8.dir/build.make CMakeFiles/cmTC_32dc8.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_32dc8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_32dc8.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_32dc8
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32dc8.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_32dc8.dir/CheckFunctionExists.c.o  -o cmTC_32dc8 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function ctime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bba67/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_bba67.dir/build.make CMakeFiles/cmTC_bba67.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bba67.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=ctime   -o CMakeFiles/cmTC_bba67.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bba67
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba67.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=ctime    -rdynamic CMakeFiles/cmTC_bba67.dir/CheckFunctionExists.c.o  -o cmTC_bba67 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function difftime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d595/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_4d595.dir/build.make CMakeFiles/cmTC_4d595.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4d595.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=difftime   -o CMakeFiles/cmTC_4d595.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d595
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d595.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=difftime    -rdynamic CMakeFiles/cmTC_4d595.dir/CheckFunctionExists.c.o  -o cmTC_4d595 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function fstat exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14699/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_14699.dir/build.make CMakeFiles/cmTC_14699.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_14699.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=fstat   -o CMakeFiles/cmTC_14699.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_14699
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14699.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=fstat    -rdynamic CMakeFiles/cmTC_14699.dir/CheckFunctionExists.c.o  -o cmTC_14699 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e314d/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e314d.dir/build.make CMakeFiles/cmTC_e314d.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e314d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_e314d.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e314d
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e314d.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=getenv    -rdynamic CMakeFiles/cmTC_e314d.dir/CheckFunctionExists.c.o  -o cmTC_e314d 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function getpagesize exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21116/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_21116.dir/build.make CMakeFiles/cmTC_21116.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_21116.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=getpagesize   -o CMakeFiles/cmTC_21116.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21116
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21116.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=getpagesize    -rdynamic CMakeFiles/cmTC_21116.dir/CheckFunctionExists.c.o  -o cmTC_21116 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6453/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_b6453.dir/build.make CMakeFiles/cmTC_b6453.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b6453.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=getrusage   -o CMakeFiles/cmTC_b6453.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6453
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6453.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=getrusage    -rdynamic CMakeFiles/cmTC_b6453.dir/CheckFunctionExists.c.o  -o cmTC_b6453 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_328c8/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_328c8.dir/build.make CMakeFiles/cmTC_328c8.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_328c8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_328c8.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_328c8
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_328c8.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_328c8.dir/CheckFunctionExists.c.o  -o cmTC_328c8 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function gmtime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9166/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a9166.dir/build.make CMakeFiles/cmTC_a9166.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a9166.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=gmtime   -o CMakeFiles/cmTC_a9166.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a9166
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9166.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=gmtime    -rdynamic CMakeFiles/cmTC_a9166.dir/CheckFunctionExists.c.o  -o cmTC_a9166 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function isatty exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22aa0/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_22aa0.dir/build.make CMakeFiles/cmTC_22aa0.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_22aa0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=isatty   -o CMakeFiles/cmTC_22aa0.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22aa0
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22aa0.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=isatty    -rdynamic CMakeFiles/cmTC_22aa0.dir/CheckFunctionExists.c.o  -o cmTC_22aa0 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function localtime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58f39/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_58f39.dir/build.make CMakeFiles/cmTC_58f39.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_58f39.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=localtime   -o CMakeFiles/cmTC_58f39.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58f39
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58f39.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=localtime    -rdynamic CMakeFiles/cmTC_58f39.dir/CheckFunctionExists.c.o  -o cmTC_58f39 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6fba/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a6fba.dir/build.make CMakeFiles/cmTC_a6fba.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a6fba.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTC_a6fba.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a6fba
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6fba.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=longjmp    -rdynamic CMakeFiles/cmTC_a6fba.dir/CheckFunctionExists.c.o  -o cmTC_a6fba 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function lstat exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19365/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_19365.dir/build.make CMakeFiles/cmTC_19365.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_19365.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=lstat   -o CMakeFiles/cmTC_19365.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19365
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19365.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=lstat    -rdynamic CMakeFiles/cmTC_19365.dir/CheckFunctionExists.c.o  -o cmTC_19365 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4aeea/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_4aeea.dir/build.make CMakeFiles/cmTC_4aeea.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4aeea.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_4aeea.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcmp’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4aeea
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aeea.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memcmp    -rdynamic CMakeFiles/cmTC_4aeea.dir/CheckFunctionExists.c.o  -o cmTC_4aeea 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e811/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_5e811.dir/build.make CMakeFiles/cmTC_5e811.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5e811.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_5e811.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5e811
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e811.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memcpy    -rdynamic CMakeFiles/cmTC_5e811.dir/CheckFunctionExists.c.o  -o cmTC_5e811 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c527/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9c527.dir/build.make CMakeFiles/cmTC_9c527.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9c527.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_9c527.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_9c527
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c527.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memmove    -rdynamic CMakeFiles/cmTC_9c527.dir/CheckFunctionExists.c.o  -o cmTC_9c527 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7335c/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7335c.dir/build.make CMakeFiles/cmTC_7335c.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7335c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_7335c.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_7335c
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7335c.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=memset    -rdynamic CMakeFiles/cmTC_7335c.dir/CheckFunctionExists.c.o  -o cmTC_7335c 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function mkdir exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a687/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_7a687.dir/build.make CMakeFiles/cmTC_7a687.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7a687.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mkdir   -o CMakeFiles/cmTC_7a687.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a687
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a687.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mkdir    -rdynamic CMakeFiles/cmTC_7a687.dir/CheckFunctionExists.c.o  -o cmTC_7a687 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function mktime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_183b4/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_183b4.dir/build.make CMakeFiles/cmTC_183b4.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_183b4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mktime   -o CMakeFiles/cmTC_183b4.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_183b4
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_183b4.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mktime    -rdynamic CMakeFiles/cmTC_183b4.dir/CheckFunctionExists.c.o  -o cmTC_183b4 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81c2a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_81c2a.dir/build.make CMakeFiles/cmTC_81c2a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_81c2a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_81c2a.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81c2a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c2a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mmap    -rdynamic CMakeFiles/cmTC_81c2a.dir/CheckFunctionExists.c.o  -o cmTC_81c2a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function mprotect exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0dbe/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a0dbe.dir/build.make CMakeFiles/cmTC_a0dbe.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a0dbe.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mprotect   -o CMakeFiles/cmTC_a0dbe.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0dbe
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0dbe.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=mprotect    -rdynamic CMakeFiles/cmTC_a0dbe.dir/CheckFunctionExists.c.o  -o cmTC_a0dbe 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function munmap exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea7f1/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ea7f1.dir/build.make CMakeFiles/cmTC_ea7f1.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ea7f1.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=munmap   -o CMakeFiles/cmTC_ea7f1.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea7f1
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7f1.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=munmap    -rdynamic CMakeFiles/cmTC_ea7f1.dir/CheckFunctionExists.c.o  -o cmTC_ea7f1 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7add/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e7add.dir/build.make CMakeFiles/cmTC_e7add.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e7add.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTC_e7add.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7add
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7add.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=qsort    -rdynamic CMakeFiles/cmTC_e7add.dir/CheckFunctionExists.c.o  -o cmTC_e7add 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function raise exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c51f0/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_c51f0.dir/build.make CMakeFiles/cmTC_c51f0.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c51f0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=raise   -o CMakeFiles/cmTC_c51f0.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c51f0
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c51f0.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=raise    -rdynamic CMakeFiles/cmTC_c51f0.dir/CheckFunctionExists.c.o  -o cmTC_c51f0 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function rmdir exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2559b/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2559b.dir/build.make CMakeFiles/cmTC_2559b.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2559b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=rmdir   -o CMakeFiles/cmTC_2559b.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2559b
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2559b.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=rmdir    -rdynamic CMakeFiles/cmTC_2559b.dir/CheckFunctionExists.c.o  -o cmTC_2559b 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe72a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_fe72a.dir/build.make CMakeFiles/cmTC_fe72a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fe72a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_fe72a.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe72a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe72a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=setjmp    -rdynamic CMakeFiles/cmTC_fe72a.dir/CheckFunctionExists.c.o  -o cmTC_fe72a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc169/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_cc169.dir/build.make CMakeFiles/cmTC_cc169.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cc169.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_cc169.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc169
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc169.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=signal    -rdynamic CMakeFiles/cmTC_cc169.dir/CheckFunctionExists.c.o  -o cmTC_cc169 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6d97/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_b6d97.dir/build.make CMakeFiles/cmTC_b6d97.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b6d97.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_b6d97.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b6d97
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6d97.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=snprintf    -rdynamic CMakeFiles/cmTC_b6d97.dir/CheckFunctionExists.c.o  -o cmTC_b6d97 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_035d3/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_035d3.dir/build.make CMakeFiles/cmTC_035d3.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_035d3.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_035d3.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_035d3
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_035d3.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_035d3.dir/CheckFunctionExists.c.o  -o cmTC_035d3 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5bbb/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a5bbb.dir/build.make CMakeFiles/cmTC_a5bbb.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a5bbb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_a5bbb.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a5bbb
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5bbb.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strchr    -rdynamic CMakeFiles/cmTC_a5bbb.dir/CheckFunctionExists.c.o  -o cmTC_a5bbb 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79437/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_79437.dir/build.make CMakeFiles/cmTC_79437.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_79437.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_79437.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_79437
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79437.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strdup    -rdynamic CMakeFiles/cmTC_79437.dir/CheckFunctionExists.c.o  -o cmTC_79437 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1011f/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_1011f.dir/build.make CMakeFiles/cmTC_1011f.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1011f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTC_1011f.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1011f
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1011f.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strerror    -rdynamic CMakeFiles/cmTC_1011f.dir/CheckFunctionExists.c.o  -o cmTC_1011f 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0c2f/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_a0c2f.dir/build.make CMakeFiles/cmTC_a0c2f.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a0c2f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTC_a0c2f.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strftime’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a0c2f
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0c2f.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strftime    -rdynamic CMakeFiles/cmTC_a0c2f.dir/CheckFunctionExists.c.o  -o cmTC_a0c2f 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a5ba/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_2a5ba.dir/build.make CMakeFiles/cmTC_2a5ba.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2a5ba.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_2a5ba.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncasecmp’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2a5ba
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a5ba.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strncasecmp    -rdynamic CMakeFiles/cmTC_2a5ba.dir/CheckFunctionExists.c.o  -o cmTC_2a5ba 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56c04/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_56c04.dir/build.make CMakeFiles/cmTC_56c04.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_56c04.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_56c04.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_56c04
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56c04.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strrchr    -rdynamic CMakeFiles/cmTC_56c04.dir/CheckFunctionExists.c.o  -o cmTC_56c04 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba77a/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ba77a.dir/build.make CMakeFiles/cmTC_ba77a.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ba77a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_ba77a.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_ba77a
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba77a.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=strstr    -rdynamic CMakeFiles/cmTC_ba77a.dir/CheckFunctionExists.c.o  -o cmTC_ba77a 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function time exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9dfc7/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_9dfc7.dir/build.make CMakeFiles/cmTC_9dfc7.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9dfc7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=time   -o CMakeFiles/cmTC_9dfc7.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dfc7
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dfc7.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=time    -rdynamic CMakeFiles/cmTC_9dfc7.dir/CheckFunctionExists.c.o  -o cmTC_9dfc7 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function umask exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee7f4/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_ee7f4.dir/build.make CMakeFiles/cmTC_ee7f4.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ee7f4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=umask   -o CMakeFiles/cmTC_ee7f4.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee7f4
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee7f4.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=umask    -rdynamic CMakeFiles/cmTC_ee7f4.dir/CheckFunctionExists.c.o  -o cmTC_ee7f4 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function utime exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b7f0/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_6b7f0.dir/build.make CMakeFiles/cmTC_6b7f0.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6b7f0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=utime   -o CMakeFiles/cmTC_6b7f0.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6b7f0
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b7f0.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=utime    -rdynamic CMakeFiles/cmTC_6b7f0.dir/CheckFunctionExists.c.o  -o cmTC_6b7f0 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_493c5/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_493c5.dir/build.make CMakeFiles/cmTC_493c5.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_493c5.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_493c5.dir/CheckFunctionExists.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’ [-Wbuiltin-declaration-mismatch]
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_493c5
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_493c5.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_493c5.dir/CheckFunctionExists.c.o  -o cmTC_493c5 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18c9b/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_18c9b.dir/build.make CMakeFiles/cmTC_18c9b.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_18c9b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_18c9b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_18c9b
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c9b.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_18c9b.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_18c9b 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20489/fast"
+make[1]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_20489.dir/build.make CMakeFiles/cmTC_20489.dir/build
+make[2]: 进入目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_20489.dir/TestEndianess.c.o
+/usr/bin/gcc   -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include    -o CMakeFiles/cmTC_20489.dir/TestEndianess.c.o   -c /home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_20489
+/home/shun/linux/tool/buildroot-2019.02.6/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20489.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/home/shun/linux/tool/buildroot-2019.02.6/output/host/include     -rdynamic CMakeFiles/cmTC_20489.dir/TestEndianess.c.o  -o cmTC_20489 
+make[2]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/shun/linux/tool/buildroot-2019.02.6/output/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp”
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,2 @@
+/home/shun/linux/tool/buildroot-2019.02.6/package/alsa-lib/0001-Don-t-use-fork-on-noMMU-platforms.patch
+/home/shun/linux/tool/buildroot-2019.02.6/package/alsa-lib/0002-alsa-lib-conditionally-enable-libdl-in-AM_PATH_ALSA-.patch
